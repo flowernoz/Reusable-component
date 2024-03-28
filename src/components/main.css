@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+}
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.boxt {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+  padding: 25px;
+  width: 50%;
+}
+
+.boxt h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.boxt p {
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.boxt button {
+  padding: 8px 18px;
+}
+.boxi {
+  width: 50%;
+}
+
+.boxi img {
+  width: 100%;
+}
+
+ button {
+  cursor: pointer;
+}
